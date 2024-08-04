@@ -2,16 +2,17 @@
   "name": "battleship_backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "uuid": "^10.0.0",
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.44.0"
   }
 }
